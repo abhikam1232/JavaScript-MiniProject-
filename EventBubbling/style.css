@@ -1,0 +1,11 @@
+.main {
+    height: 200px;
+    width: 400px;
+    background-color: pink;
+}
+
+.submain {
+    height: 120px;
+    width: 200px;
+    background-color: rgb(96, 96, 178);
+}
