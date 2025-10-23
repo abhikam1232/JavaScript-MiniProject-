@@ -1,0 +1,27 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+
+.outer {
+    height: 400px;
+    width: 400px;
+    background-color: lightblue;
+
+}
+
+.middle {
+    height: 250px;
+    width: 250px;
+    background-color: khaki;
+}
+
+.inner {
+    height: 150px;
+    width: 120px;
+    background-color: darkred;
+}
