@@ -37,7 +37,3 @@ button{
     border: none;
 }
 
-.del {
-    display: flex;
-    flex-direction: column;
-}
