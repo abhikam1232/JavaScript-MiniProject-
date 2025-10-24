@@ -2,6 +2,8 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: Titillium Web;
+
 }
 
 .container{
@@ -56,17 +58,18 @@
     padding: 10px;
 }
 
-button{
+.ad{
     border: none;
     background: none;
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 16px;
+    padding-bottom: 16px;
     background: #ff5945;
     color: white;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+    border-radius: 40px;
     font-size: 1.6em;
     cursor: pointer;
+    position: relative;
+    left: 3px;
 }
