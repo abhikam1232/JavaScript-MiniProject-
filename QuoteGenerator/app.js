@@ -14,10 +14,23 @@ const quotes = [
   "Small steps create success."
 ];
 
-
-btn.addEventListener("click", function() {
+// Using array event lustener method 
+/** btn.addEventListener("click", function() {
     let val = Math.floor(Math.random() * quotes.length); // var which generates random number having limit of the array which is 1-10..
     par.innerText = quotes[val];
     par.style.marginBottom = "50px";
     par.style.fomtFamily = "cursive";
+}); **/
+
+
+// using API method:- 
+btn.addEventListener("click", function(){ // Event listener.. 
+    Advance();
 });
+
+async function Advance(){
+    let data = await fetch("https://api.kanye.rest/");
+    let jsonAccess = await data.json(); // Converts in json 
+    par.innerText = jsonAccess["quote"];
+}
+
