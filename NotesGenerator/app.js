@@ -2,6 +2,8 @@ let btn = document.querySelector(".gen");
 let note = document.createElement("textarea");
 let main = document.querySelector(".major");
 
+let delBtn = document.querySelector(".del")
+
 
 btn.addEventListener("click", function() {
     
@@ -13,5 +15,9 @@ btn.addEventListener("click", function() {
     note.style.fontSize = "1.4em";
     note.style.padding = "15px";
     main.append(note);
+});
+
+delBtn.addEventListener("click", function() {
+    note.remove();
 });
 
