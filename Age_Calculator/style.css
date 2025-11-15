@@ -70,3 +70,20 @@ input{
     color: black;
     border: none;
 }
+
+.input-box input::-webkit-calender-picker-indicator{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    background-position: calc(100% - 10px);
+    background-size: 10px;
+    cursor: pointer;
+
+}
+
+p{
+    color: black;
+    
+}
