@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Stack Sans Text;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.major{
+    width: 100%;
+    height: 100vh;
+    background:  radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,192,203,1) 0%, rgba(203,160,236,1) 96.6% );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myBtn{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.4em;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+
+    transition: all 0.3s ease; /** Due to this feature in the UI it is showing the smooth transition **/
+}
+
+.myBtn:hover{
+    background-color: rgb(1, 1, 45);
+    color: pink;
+}
+
+.popup img{
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 4px grey;
+}
+
+.popup{
+    width: 400px;
+    background: #ffffff7a;
+    border-radius: 20px;
+    position: absoulte;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 30px 30px 30px;
+
+}
+
+.insideBtn{
+    margin-top: 10px;
+    padding-left: 130px;
+    padding-right: 130px;
+    font-size: 1.2em;
+    border-radius: 20px;
+    border-width: 1.2px;
+    background-color: #1b1b1b ;
+    color: #ffcc00;
+}
+
+.popup h2{
+    font-family: roboto;
+    margin: 10px;
+}
