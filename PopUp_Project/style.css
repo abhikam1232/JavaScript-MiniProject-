@@ -5,11 +5,11 @@
     font-family: Stack Sans Text;
 }
 
-body{
+/**body{
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} **/
 
 .major{
     width: 100%;
@@ -29,6 +29,9 @@ body{
     border-radius: 15px;
     outline: none;
     border: none;
+    display: flex;
+    justify-content: center;
+    margin-left: 150px;
 
     transition: all 0.3s ease; /** Due to this feature in the UI it is showing the smooth transition **/
 }
@@ -49,11 +52,12 @@ body{
     background: #ffffff7a;
     border-radius: 20px;
     position: absoulte;
-    top: 50%;
+    top: 0;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%) scale(0.1);
     text-align: center;
     padding: 30px 30px 30px;
+    visibility: hidden;
 
 }
 
