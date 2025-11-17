@@ -8,3 +8,5 @@ function isValidEmail(email) {
 
 let emailInput = document.querySelector(".mail");
 let msg = document.querySelector("#msg");
+
+// emailjs.send("service_kznl9cg", "template_dzye82l", { 
