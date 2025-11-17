@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, #9795f0 0%, #fbc8d4 100%);
+}
+
+.main h2{
+    margin-top: 30px;
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+.main span{
+    margin-top: 15px;
+    font-size: 1.4em;
+    font-weight: 450;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
