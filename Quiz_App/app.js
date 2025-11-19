@@ -1,12 +1,13 @@
-emailjs.init({
-  publicKey: "Im-f4aFQVRwUiIWQb",
+// This JS is for my first page 
+let btn = document.querySelector("button");
+
+btn.addEventListener("click", function() {
+
+  window.location.href = "quiz.html";
+
 });
 
-function isValidEmail(email) {
-  return /\S+@\S+\.\S+/.test(email);
-}
+//  This JS is for my quiz page:- 
 
-let emailInput = document.querySelector(".mail");
-let msg = document.querySelector("#msg");
 
-// emailjs.send("service_kznl9cg", "template_dzye82l", { 
+
