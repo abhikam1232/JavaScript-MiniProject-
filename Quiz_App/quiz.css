@@ -141,3 +141,26 @@ h3{
     padding-left: 10px;
     outline: none;
 }
+
+.parClass{
+    font-size: 1em;
+    font-family: cursive;
+}
+
+.answer{
+    visibility: hidden;
+}
+
+#submit{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    margin: auto;
+    outline: none;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}

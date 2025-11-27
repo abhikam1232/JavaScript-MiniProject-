@@ -1,6 +1,9 @@
 let startBtn = document.querySelector(".startBtn");
 let secondSection = document.querySelector("#second");
 let output = document.querySelector(".output");
+let clickBtn = document.querySelector("#new"); // This is the click button... 
+let h3 = document.querySelector("h3");
+let input = document.querySelector(".answer");
 
 startBtn.addEventListener("click", function() {
     secondSection.scrollIntoView({ behavior: "smooth"});
@@ -22,15 +25,31 @@ const simpleAns = [
 // Now I basically Want to make an function using which it will automatically display one question and in the input we need to type that answer if that answer is right it will check from the answers array and say it is right... 
 
 let par = document.createElement("p");
-output.appendChild(par);
-let clickBtn = document.querySelector("#new");
+h3.appendChild(par);
+par.style.color = "white";
+par.classList.add("parClass");
+par.style.color = "white";
+par.style.textAlign = "center";
+par.style.marginTop = "30px";
+
+
+
 
 
 // This is my method which is implemented :- 
- /** clickBtn.addEventListener("click", function() {
-    for(i=0; i<=4; i++){
-    par.innerText = simpleQues[i];
-    par.style.color = "white";
-    console.log("helloo");
-} 
-}); **/
+  let index = 0;
+
+  clickBtn.addEventListener("click", function() {
+    if ( index < simpleQues.length){
+        par.innerText = simpleQues[index];
+        index = index + 1;
+    } else{
+        par.innerText = " ✨ No more Questions are here ✨"
+    }
+
+    input.style.visibility = "visible";
+    input.style.width = "200px";
+    input.style.margin = "auto";
+
+
+  });
