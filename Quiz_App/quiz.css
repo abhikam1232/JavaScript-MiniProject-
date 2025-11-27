@@ -107,3 +107,37 @@ h2{
     font-family: lobster Two;
     padding-bottom: 14px;
 }
+
+.output{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 50px;
+    height: 500px;
+    width: 800px;
+    background-color: #06222e;
+    color: white;
+    border-radius: 5px;
+}
+
+h3{
+    font-family: Saira;
+    font-size: 2em;
+    margin-bottom: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+/* out button */
+#new {
+    height: 30px;
+    width: 80px;
+    margin: auto;
+    border-radius: 10px;
+    font-size: 1.2em;
+    padding-right: 10px;
+    padding-left: 10px;
+    outline: none;
+}
